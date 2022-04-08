@@ -1,0 +1,16 @@
+		body { font-family: DejaVuSansCondensed, sans-serif; font-size: 16px; }
+		h2 { font-size: 20pt; margin-top: 60px; margin-bottom: 6pt; text-transform: uppercase; text-align: center; }
+		
+		table.invoiceItems {border-collapse: collapse; width: 100%; border: 1px solid #f2f2f2; }
+		table.invoiceItems th, table.invoiceItems td { text-align: left; padding: 8px; }
+		table.invoiceItems tr:nth-child(odd) td { border-right: 1px solid #f2f2f2; }
+		table.invoiceItems tr:nth-child(even) { background-color: #f2f2f2; }
+		table.invoiceItems tr:nth-child(even) td { border-right: 1px solid #fff; }
+		
+		.space{ width: 100%; height: 40px; }
+		.bigspace{ width: 100%; height: 80px; }
+		.parent { width: 100%; } 
+		.note, .summary { padding: 5px;}
+		.note { float: left; width: 60%; border: 1px solid #f2f2f2; margin-right: 10px;}
+		.summary { float: right; width: 35%; margin-left: 10px;}
+		.clearfix { content: ""; clear: both; display: table; }
